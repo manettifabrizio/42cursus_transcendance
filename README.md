@@ -62,10 +62,14 @@ handling server-side operations, and PostgresSQL for robust database management.
 
 ## Screenshots
 
-|                          Landing Page                           |                      Home                       |
-| :-------------------------------------------------------------: | :---------------------------------------------: |
-| ![Landing Page](./GitHub%20Assets/Screenshots/landing_page.png) | ![Home](./GitHub%20Assets/Screenshots/home.png) |
+### Landing Page
+![Landing Page](./GitHub%20Assets/Screenshots/landing_page.png)
 
-|                        User Profile                        |                      Game                       |
-| :--------------------------------------------------------: | :---------------------------------------------: |
-| ![User Profile](./GitHub%20Assets/Screenshots/profile.png) | ![Chat](./GitHub%20Assets/Screenshots/game.png) |
+### Home
+![Landing Page](./GitHub%20Assets/Screenshots/home.png)
+
+### Profile
+![Landing Page](./GitHub%20Assets/Screenshots/profile.png)
+
+### Game
+![Landing Page](./GitHub%20Assets/Screenshots/game.png)
