@@ -1,0 +1,338 @@
+/* Colors */
+
+:root {
+  --green: rgb(19, 213, 144);
+  --red: rgb(229, 0, 51);
+  --pink: rgb(224, 142, 225);
+  --yellow: rgb(218, 203, 23);
+  --white: rgb(182, 210, 225);
+  --blue: rgb(0, 117, 253);
+  --cyan: rgb(3, 199, 218);
+  --violet: rgb(142, 0, 174);
+  --dark_blue: rgb(0, 77, 113);
+}
+
+/* COLORS FOR FONTS */
+
+.green {
+  color: var(--green);
+}
+.red {
+  color: var(--red);
+}
+.pink {
+  color: var(--pink);
+}
+.yellow {
+  color: var(--yellow);
+}
+.white {
+  color: white;
+}
+.blue {
+  color: var(--blue);
+}
+.cyan {
+  color: var(--cyan);
+}
+.violet {
+  color: var(--violet);
+}
+.dark_blue {
+  color: var(--dark_blue);
+}
+
+/* BACKGROUND COLORS FOR DIV */
+
+.bc_green {
+  background-color: var(--green);
+}
+.bc_red {
+  background-color: var(--red);
+}
+.bc_pink {
+  background-color: var(--pink);
+}
+.bc_yellow {
+  background-color: var(--yellow);
+}
+.bc_white {
+  background-color: var(--white);
+}
+.bc_blue {
+  background-color: var(--blue);
+}
+.bc_cyan {
+  background-color: var(--cyan);
+}
+.bc_violet {
+  background-color: var(--violet);
+}
+.bc_dark_blue {
+  background-color: var(--dark_blue);
+}
+
+/* BORDER COLORS WITH BOX SHADOW FOR DIV */
+
+.borsh_green {
+  border-color: var(--green) !important;
+  box-shadow: 0.25vw 0.25vw 0px -0.05vw rgba(19, 213, 144, 0.5);
+}
+
+.borsh_red {
+  border-color: var(--red) !important;
+  box-shadow: 0.25vw 0.25vw 0px -0.05vw rgba(229, 0, 51, 0.5);
+}
+
+.borsh_pink {
+  border-color: var(--pink) !important;
+  box-shadow: 0.25vw 0.25vw 0px -0.05vw rgba(224, 142, 225, 0.5);
+}
+
+.borsh_yellow {
+  border-color: var(--yellow) !important;
+  box-shadow: 0.25vw 0.25vw 0px -0.05vw rgba(218, 203, 23, 0.5);
+}
+
+.borsh_white {
+  border-color: var(--white) !important;
+  box-shadow: 0.25vw 0.25vw 0px -0.05vw rgba(182, 210, 225, 0.5);
+}
+
+.borsh_blue {
+  border-color: var(--blue) !important;
+  box-shadow: 0.25vw 0.25vw 0px -0.05vw rgba(0, 117, 253, 0.5);
+}
+
+.borsh_cyan {
+  border-color: var(--cyan) !important;
+  box-shadow: 0.25vw 0.25vw 0px -0.05vw rgba(3, 199, 218, 0.5);
+}
+
+.borsh_violet {
+  border-color: var(--violet) !important;
+  box-shadow: 0.25vw 0.25vw 0px -0.05vw rgba(142, 0, 174, 0.5);
+}
+
+.borsh_dark_blue {
+  border-color: var(--dark_blue) !important;
+  box-shadow: 0.25vw 0.25vw 0px -0.05vw rgba(0, 77, 113, 0.5);
+}
+
+/* BUTTONS COLOR AND ANIMATION */
+
+.but_green {
+  background-color: var(--green);
+  box-shadow: 0.25vw 0.25vw 0px -0.05vw rgba(19, 213, 144, 0.5);
+}
+
+.but_green:hover {
+  transform: translateX(0.1vw) translateY(0.1vw);
+  box-shadow: 0.1vw 0.1vw 0px -0.05vw rgba(19, 213, 144, 0.5);
+  cursor: pointer;
+}
+
+.but_green:active {
+  transform: translateX(0.25vw) translateY(0.25vw);
+  box-shadow: 0px 0px 0px -0.05vw rgba(19, 213, 144, 0.5);
+  cursor: pointer;
+}
+
+.but_red {
+  background-color: var(--red);
+  box-shadow: 0.25vw 0.25vw 0px -0.05vw rgba(229, 0, 51, 0.5);
+}
+
+.but_red:hover {
+  transform: translateX(0.1vw) translateY(0.1vw);
+  box-shadow: 0.1vw 0.1vw 0px -0.05vw rgba(229, 0, 51, 0.5);
+  cursor: pointer;
+}
+
+.but_red:active {
+  transform: translateX(0.25vw) translateY(0.25vw);
+  box-shadow: 0px 0px 0px -0.05vw rgba(229, 0, 51, 0.5);
+  cursor: pointer;
+}
+
+.but_pink {
+  background-color: var(--pink);
+  box-shadow: 0.25vw 0.25vw 0px -0.05vw rgba(224, 142, 225, 0.5);
+}
+
+.but_pink:hover {
+  transform: translateX(0.1vw) translateY(0.1vw);
+  box-shadow: 0.1vw 0.1vw 0px -0.05vw rgba(224, 142, 225, 0.5);
+  cursor: pointer;
+}
+
+.but_pink:active {
+  transform: translateX(0.25vw) translateY(0.25vw);
+  box-shadow: 0px 0px 0px -0.05vw rgba(224, 142, 225, 0.5);
+  cursor: pointer;
+}
+
+.but_yellow {
+  background-color: var(--yellow);
+  box-shadow: 0.25vw 0.25vw 0px -0.05vw rgba(218, 203, 23, 0.5);
+}
+
+.but_yellow:hover {
+  transform: translateX(0.1vw) translateY(0.1vw);
+  box-shadow: 0.1vw 0.1vw 0px -0.05vw rgba(218, 203, 23, 0.5);
+  cursor: pointer;
+}
+
+.but_yellow:active {
+  transform: translateX(0.25vw) translateY(0.25vw);
+  box-shadow: 0px 0px 0px -0.05vw rgba(218, 203, 23, 0.5);
+  cursor: pointer;
+}
+
+.but_white {
+  background-color: var(--white);
+  box-shadow: 0.25vw 0.25vw 0px -0.05vw rgba(182, 210, 225, 0.5);
+}
+
+.but_white:hover {
+  transform: translateX(0.1vw) translateY(0.1vw);
+  box-shadow: 0.1vw 0.1vw 0px -0.05vw rgba(182, 210, 225, 0.5);
+  cursor: pointer;
+}
+
+.but_white:active {
+  transform: translateX(0.25vw) translateY(0.25vw);
+  box-shadow: 0px 0px 0px -0.05vw rgba(182, 210, 225, 0.5);
+  cursor: pointer;
+}
+
+.but_blue {
+  background-color: var(--blue) !important;
+  box-shadow: 0.25vw 0.25vw 0px -0.05vw rgba(0, 117, 253, 0.5);
+}
+
+.but_blue:hover {
+  transform: translateX(0.1vw) translateY(0.1vw);
+  box-shadow: 0.1vw 0.1vw 0px -0.05vw rgba(0, 117, 253, 0.5);
+  cursor: pointer;
+}
+
+.but_blue:active {
+  transform: translateX(0.25vw) translateY(0.25vw);
+  box-shadow: 0px 0px 0px -0.05vw rgba(0, 117, 253, 0.5);
+  cursor: pointer;
+}
+
+.but_cyan {
+  background-color: var(--cyan);
+  box-shadow: 0.25vw 0.25vw 0px -0.05vw rgba(3, 199, 218, 0.5);
+}
+
+.but_cyan:hover {
+  transform: translateX(0.1vw) translateY(0.1vw);
+  box-shadow: 0.1vw 0.1vw 0px -0.05vw rgba(3, 199, 218, 0.5);
+  cursor: pointer;
+}
+
+.but_cyan:active {
+  transform: translateX(0.25vw) translateY(0.25vw);
+  box-shadow: 0px 0px 0px -0.05vw rgba(3, 199, 218, 0.5);
+  cursor: pointer;
+}
+
+.but_violet {
+  background-color: var(--violet);
+  box-shadow: 0.25vw 0.25vw 0px -0.05vw rgba(142, 0, 174, 0.5);
+}
+
+.but_violet:hover {
+  transform: translateX(0.1vw) translateY(0.1vw);
+  box-shadow: 0.1vw 0.1vw 0px -0.05vw rgba(142, 0, 174, 0.5);
+  cursor: pointer;
+}
+background .but_violet:active {
+  transform: translateX(0.25vw) translateY(0.25vw);
+  box-shadow: 0px 0px 0px -0.05vw rgba(142, 0, 174, 0.5);
+  cursor: pointer;
+}
+
+.but_dark_blue {
+  background-color: rgb(0, 77, 113);
+  box-shadow: 0.25vw 0.25vw 0px -0.05vw rgba(0, 77, 113, 0.5);
+}
+
+.but_dark_blue:hover {
+  transform: translateX(0.1vw) translateY(0.1vw);
+  box-shadow: 0.1vw 0.1vw 0px -0.05vw rgba(0, 77, 113, 0.5);
+  cursor: pointer;
+}
+
+.but_dark_blue:active {
+  transform: translateX(5pbackgroundx) translateY(0.25vw);
+  box-shadow: 0px 0px 0px -0.05vw rgba(0, 77, 113, 0.5);
+  cursor: pointer;
+}
+
+.but_grey {
+  background-color: grey;
+  box-shadow: 0.25vw 0.25vw 0px -0.05vw rgba(128, 128, 128, 0.5);
+}
+
+.but_grey:hover {
+  transform: translateX(0.1vw) translateY(0.1vw);
+  box-shadow: 0.1vw 0.1vw 0px -0.05vw rgba(128, 128, 128, 0.5);
+  cursor: pointer;
+}
+
+.but_grey:active {
+  transform: translateX(5pbackgroundx) translateY(0.25vw);
+  box-shadow: 0px 0px 0px -0.05vw rgba(128, 128, 128, 0.5);
+  cursor: pointer;
+}
+
+/* BORDER COLORS */
+
+.bor_green {
+  border-color: var(--green) !important;
+  box-shadow: 0.25vw 0.25vw 0px -0.05vw rgba(19, 213, 144, 0.5);
+}
+
+.bor_red {
+  border-color: var(--red) !important;
+  box-shadow: 0.25vw 0.25vw 0px -0.05vw rgba(229, 0, 51, 0.5);
+}
+
+.bor_pink {
+  border-color: var(--pink) !important;
+  box-shadow: 0.25vw 0.25vw 0px -0.05vw rgba(224, 142, 225, 0.5);
+}
+
+.bor_yellow {
+  border-color: var(--yellow) !important;
+  box-shadow: 0.25vw 0.25vw 0px -0.05vw rgba(218, 203, 23, 0.5);
+}
+
+.bor_white {
+  border-color: var(--white) !important;
+  box-shadow: 0.25vw 0.25vw 0px -0.1vw rgba(182, 210, 225, 0.5);
+}
+
+.bor_blue {
+  border-color: var(--blue) !important;
+  box-shadow: 0.25vw 0.25vw 0px -0.05vw rgba(0, 117, 253, 0.5);
+}
+
+.bor_cyan {
+  border-color: var(--cyan) !important;
+  box-shadow: 0.25vw 0.25vw 0px -0.05vw rgba(3, 199, 218, 0.5);
+}
+
+.bor_violet {
+  border-color: var(--violet) !important;
+  box-shadow: 0.25vw 0.25vw 0px -0.05vw rgba(142, 0, 174, 0.5);
+}
+
+.bor_dark_blue {
+  border-color: var(--dark_blue) !important;
+  box-shadow: 0.25vw 0.25vw 0px -0.05vw rgba(0, 77, 113, 0.5);
+}

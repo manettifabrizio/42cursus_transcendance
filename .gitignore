@@ -1,40 +1,22 @@
-# compiled output
-/dist
-/frontend/node_modules/
-/frontend/package-lock.json
-/api/node_modules/
-/api/package-lock.json
-/postgres_data
+# Editors
+.vscode/
+
+# Environments
+.env
+.env.*
+!.env.template
+
+# Certificates
+*.crt
+*.key
+
 # Logs
-logs
+logs/
 *.log
-npm-debug.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-# OS
-.DS_Store
+# Packages
+node_modules/
 
-# Tests
-/coverage
-/.nyc_output
-
-# IDEs and editors
-/.idea
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
-
-# IDE - VSCode
-.vscode/*
-.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-
-# Local files
-api/.env
-frontend/.env
+# Builds
+dist/
+backend/dist
