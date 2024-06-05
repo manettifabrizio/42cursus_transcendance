@@ -7,8 +7,10 @@
 !.env.template
 
 # Certificates
+secrets/
 *.crt
 *.key
+*.pem
 
 # Logs
 logs/
