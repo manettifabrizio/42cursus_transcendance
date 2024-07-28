@@ -27,7 +27,9 @@ async function bootstrap() {
   const nest_app = await NestFactory.create(
     AppModule,
     new ExpressAdapter(server),
-    { httpsOptions },
+    // No need to use https internally since is exposed through NGINX
+    // that already has https
+    // { httpsOptions },
   );
 
   AppDataSource.getRepository(TypeORMSession);
@@ -53,7 +55,7 @@ async function bootstrap() {
 
   //swagger
   const config = new DocumentBuilder()
-    .setTitle('Transcendance API')
+    .setTitle('Cyberpong API')
     .setVersion('0.9.13')
     .build();
   const document = SwaggerModule.createDocument(nest_app, config);

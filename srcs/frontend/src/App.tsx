@@ -22,7 +22,7 @@ function App() {
         <img
           src={LogoCyberpong}
           style={{ width: '100%' }}
-          alt="transcendance logo"
+          alt="cyberpong logo"
         />
 
         <div

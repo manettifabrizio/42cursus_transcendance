@@ -16,7 +16,7 @@ export class TwofaService {
       public async generateTwofaSecret(user: User) {
         const secret = authenticator.generateSecret();
      
-        const otpauthUrl = authenticator.keyuri(user.id.toString(), 'Transcendance', secret);
+        const otpauthUrl = authenticator.keyuri(user.id.toString(), 'Cyberpong', secret);
        
         await this.usersService.updateSecret(user.id, secret);
      

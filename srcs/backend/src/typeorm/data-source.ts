@@ -8,7 +8,7 @@ export const datasource_config: DataSourceOptions = {
   port: 5432,
   username: 'postgres',
   password: '123456',
-  database: 'transcendance',
+  database: 'cyberpong',
   synchronize: false,
   migrationsRun: false,
   logging: true,
